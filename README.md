@@ -9,7 +9,6 @@ This project is an interactive pricing component that dynamically updates the pa
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Features
 - Interactive range selector to adjust page views and pricing dynamically.
@@ -50,8 +49,5 @@ interactive-pricing-component/
 ├── styles.css        # Styling for the project
 ├── script.js         # JavaScript for interactivity
 ├── images/           # Asset files
-```
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
