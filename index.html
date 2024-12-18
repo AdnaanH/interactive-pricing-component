@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Interactive Pricing Component</title>
+</head>
+<body>
+    <main class="container">
+        <section class="titles" >
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+        </section>
+        <section class="pricing">
+            <div class="plan-info">
+                <p><span id="pages">100K</span> PAGEVIEWS</p>
+                <div class="amount-section">
+                    <h2>$ <span id="amount">16.00</span></h2>
+                    <p id="month">/month</p>
+                </div>
+            </div>
+            <div class="range-selector">
+                <div class="slider-track"></div>
+                <div class="slider-handle" id="handle"></div>
+            </div>
+            <div class="plan-options">
+                <h2>Monthly Billing</h2>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="toggle" aria-label="Toggle switch" />
+                    <label for="toggle"></label>
+                </div>
+                <h2>Yearly Billing <span>25% discount</span></h2>
+            </div>
+            <div class="features">
+                <div class="feature-list">
+                    <div class="feature">
+                        <img src="images/icon-check.svg" alt="icon-1">
+                        <p>Unlimited websites</p>
+                    </div>
+                    <div class="feature">
+                        <img src="images/icon-check.svg" alt="icon-2">
+                        <p>100% data ownership</p>
+                    </div>
+                    <div class="feature">
+                        <img src="images/icon-check.svg" alt="icon-3">
+                        <p>Email reports</p>
+                    </div>
+                </div>
+                <div class="cta">
+                    <button>Start my trial</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
